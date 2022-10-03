@@ -9,7 +9,7 @@ bot_tokens = [token for token in os.environ.get("BOT_TOKEN", "").split(" ")]
 
 
 async def send_reply(c, m):
-    await m.reply_text("**Hey I am Back 😘\n\nPermanent shifted to 👉: @UploadXPro_Bot**", quote=True)
+    await m.reply_text("**Hey Bruh 😼\n\nThis Bot Permanent shifted to 👉: @UploadXPro_Bot**", quote=True)
 
 async def main():
     apps = []
