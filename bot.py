@@ -1,4 +1,4 @@
-import asyncio
+import os, asyncio
 from pyrogram import Client, compose
 
 api_id = int(os.environ.get("API_ID"))
