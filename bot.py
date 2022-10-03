@@ -1,8 +1,8 @@
 import os, asyncio
 from pyrogram import Client, compose
 
-api_id = int(os.environ.get("API_ID"))
-api_hash = os.environ.get("API_HASH")
+API_ID = int(os.environ.get("API_ID"))
+API_HASH = os.environ.get("API_HASH")
 bot_tokens = [token for token in os.environ.get("BOT_TOKEN")]
 
 
