@@ -5,7 +5,7 @@ from pyrogram.handlers import MessageHandler
 
 API_ID = int(os.environ.get("API_ID"))
 API_HASH = os.environ.get("API_HASH")
-bot_tokens = [token for token in os.environ.get("BOT_TOKEN")]
+bot_tokens = [token for token in os.environ.get("BOT_TOKEN", "").split(" ")]
 
 
 async def send_reply(c, m):
