@@ -1,12 +1,3 @@
-
-
-app = Client(
-    
-    api_id = int(os.environ.get("API_ID"))
-    api_hash = os.environ.get("API_HASH")
-
-)
-
 import asyncio
 from pyrogram import Client, compose
 
